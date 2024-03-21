@@ -1,4 +1,4 @@
-export default function ThemeSwitch() {
+export default function ToggleButton() {
     return (
       <label className="relative inline-flex cursor-pointer items-center">
         <input type="checkbox" value="" className="peer sr-only" />
