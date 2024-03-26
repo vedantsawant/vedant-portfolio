@@ -4,12 +4,18 @@ import Navbar from "./components/Navbar";
 import Input from "./components/Input";
 import Button from "./components/Button";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="min-h-screen items-center">
       <Navbar />
+      <div className="pt-15">
       <About />
+      <Experience />
+      <Experience />
+      </div>
+      
     </main>
   );
 }
