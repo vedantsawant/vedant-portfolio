@@ -54,3 +54,12 @@ body::-webkit-scrollbar-thumb,
 .code::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  will-change: transform;
+}
