@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Experience from './components/Experience'
 import MomentumScroll from './components/MomentumScroll'
+import Projetcs from './components/Projects'
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
       <div className="pt-15 snap-y snap-mandatory">
         <MomentumScroll>
           <About />
-          <Experience />
-          <Experience />
+          <Experience id="experience" />
+          <Projetcs />
         </MomentumScroll>
       </div>
     </main>

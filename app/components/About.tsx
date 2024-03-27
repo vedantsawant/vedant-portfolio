@@ -1,9 +1,10 @@
 'use client'
 import Button from './Button'
+import Image from 'next/image'
 
 export default function About() {
   return (
-    <section className="bg-white item py-10 content">
+    <section id="about" className="bg-white item py-10 content">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <p className="max-w-2xl mb-6 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
@@ -13,11 +14,9 @@ export default function About() {
             I BUILD WEB APPS
           </h1>
           <p className="max-w-2xl mb-6 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-            From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their
-            payment stack.
+            From Full stack applications to Distributed Systems.
           </p>
           <Button
-            color="bg-violet"
             onClick={() => {
               console.log('btn click')
             }}
@@ -27,8 +26,9 @@ export default function About() {
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
           <img
-            src="https://www.muraldecal.com/en/img/drball001-png/folder/products-detalle-png/wall-stickers-for-kids-dragon-ball-son-goku.png"
-            alt="mockup"
+            src="/Vedant_Sawant.jpg"
+            alt="Hero"
+            className="object-cover rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:grayscale"
           />
         </div>
       </div>
