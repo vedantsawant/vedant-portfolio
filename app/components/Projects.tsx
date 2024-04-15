@@ -5,20 +5,18 @@ import Button from './Button'
 export default function Projects() {
   return (
     <section id="projects" className="bg-white item py-10 content">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
-          <h1 className="max-w-2xl mb-4 text-5xl font-archivo font-semibold tracking-tight leading-none md:text-6xl xl:text-7xl">
-            Projects
-          </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-            Fault Tolerant Key-Value Store, Car Rental Website.
-          </p>
+      <div className="flex justify-center items-center">
+        <h1 className="text-4xl lg:text-6xl font-syne font-medium">Projects</h1>
+      </div>
+      <div className="grid h-dvh lg:grid-cols-3 items-center justify-items-center gap-5 lg:gap-10 px-10">
+        <div className="order-1 mx-5 p-5 w-full h-2/3 rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          Key/Value Store
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img
-            src="https://www.muraldecal.com/en/img/drball001-png/folder/products-detalle-png/wall-stickers-for-kids-dragon-ball-son-goku.png"
-            alt="mockup"
-          />
+        <div className="order-2 mx-5 p-5 w-full h-2/3 rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          Car Rental Website
+        </div>
+        <div className="order-3 mx-5 p-5 w-full h-2/3 rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+          Virtual Avatar
         </div>
       </div>
     </section>

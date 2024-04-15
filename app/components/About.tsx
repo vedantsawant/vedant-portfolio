@@ -6,8 +6,8 @@ import Image from 'next/image'
 export default function About() {
   return (
     <section id="about" className="bg-white item py-20 lg:py-0 content">
-      <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-        <div className="order-2 lg:order-1 flex flex-col justify-center items-center lg:items-start mx-10">
+      <div className="grid h-dvh lg:grid-cols-2 items-center justify-items-center gap-5 p-10">
+        <div className="order-2 lg:order-1 flex flex-col justify-center items-center lg:items-start">
           <motion.div
             initial={{
               opacity: 0,
@@ -27,7 +27,7 @@ export default function About() {
               delay: 0.1,
             }}
           >
-            <p className="max-w-2xl mb-4 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+            <p className="max-w-2xl mb-4 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl justify-center">
               Hi, my name is Vedant
             </p>
           </motion.div>
@@ -51,7 +51,7 @@ export default function About() {
             }}
           >
             {/* Projects I&apos;ve worked on */}
-            <h1 className="max-w-2xl mb-4 text-4xl font-archivo font-black tracking-tight leading-none md:text-6xl lg:text-7xl xl:text-8xl">
+            <h1 className="max-w-2xl mb-4 text-4xl font-archivo font-black tracking-tight leading-none md:text-6xl lg:text-7xl xl:text-8xl justify-center">
               I BUILD WEB APPS
             </h1>
           </motion.div>
@@ -75,7 +75,7 @@ export default function About() {
               delay: 0.1,
             }}
           >
-            <p className="max-w-2xl mb-4 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+            <p className="max-w-2xl mb-4 font-light font-syne text-gray-500 lg:mb-8 md:text-lg lg:text-xl justify-center">
               From Full stack applications to Distributed Systems.
             </p>
           </motion.div>
@@ -107,7 +107,7 @@ export default function About() {
             </Button>
           </motion.div>
         </div>
-        <div className="order-1 lg:order-2 md:flex size-48 md:size-72 lg:size-auto lg:p-28">
+        <div className="order-1 lg:order-2 md:flex size-60 md:size-72 lg:size-auto lg:p-28">
           <img
             src="/Vedant_Sawant.jpg"
             alt="Hero"
