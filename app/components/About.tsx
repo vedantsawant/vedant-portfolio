@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id="about" className="bg-white item py-10 content">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
+    <section id="about" className="bg-white item py-20 lg:py-0 content">
+      <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+        <div className="order-2 lg:order-1 flex flex-col justify-center items-center lg:items-start mx-10">
           <motion.div
             initial={{
               opacity: 0,
@@ -51,7 +51,7 @@ export default function About() {
             }}
           >
             {/* Projects I&apos;ve worked on */}
-            <h1 className="max-w-2xl mb-4 text-6xl font-archivo font-black tracking-tight leading-none md:text-7xl xl:text-8xl">
+            <h1 className="max-w-2xl mb-4 text-4xl font-archivo font-black tracking-tight leading-none md:text-6xl lg:text-7xl xl:text-8xl">
               I BUILD WEB APPS
             </h1>
           </motion.div>
@@ -107,32 +107,13 @@ export default function About() {
             </Button>
           </motion.div>
         </div>
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 30,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{
-            once: true,
-            amount: 1,
-          }}
-          transition={{
-            type: 'spring',
-            duration: 0.5,
-            delay: 0.5,
-          }}
-          className="hidden lg:mt-0 lg:col-span-5 lg:flex"
-        >
+        <div className="order-1 lg:order-2 md:flex size-48 md:size-72 lg:size-auto lg:p-28">
           <img
             src="/Vedant_Sawant.jpg"
             alt="Hero"
             className="object-cover rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:grayscale"
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   )

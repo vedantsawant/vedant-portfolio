@@ -3,17 +3,19 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Experience from './components/Experience'
 import MomentumScroll from './components/MomentumScroll'
-import Projetcs from './components/Projects'
+import Projects from './components/Projects'
 
 export default function Home() {
   return (
     <main className="min-h-screen items-center">
-      <Navbar />
-      <div className="pt-15 snap-y snap-mandatory">
+      <div className="t-0 mb-5">
+        <Navbar />
+      </div>
+      <div className="mt-200 snap-y snap-mandatory">
         <MomentumScroll>
           <About />
-          <Experience id="experience" />
-          <Projetcs />
+          <Experience />
+          <Projects />
         </MomentumScroll>
       </div>
     </main>

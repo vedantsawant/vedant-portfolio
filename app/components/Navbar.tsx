@@ -5,13 +5,13 @@ import { FaLinkedinIn } from 'react-icons/fa6'
 
 export default function Navbar() {
   return (
-    <nav className="fixed left-0 top-0 z-10 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5 m500:h-16 ">
-      <div className="mx-auto flex mx-auto w-full max-w-full items-center justify-end md:mb-0">
-        <Image src="/logo.png" width={75} height={75} alt="Logo"></Image>
-        <Link className="text-4xl font-syne font-medium m500:text-xl" href={'/'}>
+    <nav className="fixed left-0 top-0 z-10 mx-auto flex h-auto w-full items-center border-b-4 border-black bg-white px-5 m500:h-16 ">
+      <div className="mx-auto flex w-full max-w-full items-center justify-center md:justify-end md:mb-0">
+        <Image className="flex size-8 md:size-16" src="/logo.png" width={75} height={75} alt="Logo"></Image>
+        <Link className="text-3xl md:text-3xl lg:text-4xl font-syne font-medium" href={'/'}>
           Vedant Sawant
         </Link>
-        <div className="flex flex-wrap items-center text-base justify-end px-5 md:ml-auto">
+        <div className="hidden md:flex items-center text-base justify-end px-5 md:ml-auto">
           <Link
             className="text-xl font-syne font-medium m-2 transition-all delay-150 ease-in-out hover:translate-x-[-2px] hover:translate-y-[-2px]"
             href={'#about'}
@@ -31,7 +31,7 @@ export default function Navbar() {
             Projects
           </Link>
         </div>
-        <div className="flex flex-wrap items-center text-base justify-end">
+        <div className="hidden md:flex items-center text-base justify-end ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/vedant-sawant7/"
