@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id="about" className="bg-white item py-20 lg:py-0 content">
-      <div className="grid h-dvh lg:grid-cols-2 items-center justify-items-center gap-5 p-10">
+    <section id="about" className="bg-white item py-20 lg:py-0 content mx-auto justify-center items-center">
+      <div className="grid h-dvh lg:grid-cols-2 justify-items-center gap-5 p-10 max-w-screen-xl mx-auto justify-center items-center">
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center lg:items-start">
           <motion.div
             initial={{
@@ -111,7 +111,7 @@ export default function About() {
           <img
             src="/Vedant_Sawant.jpg"
             alt="Hero"
-            className="object-cover rounded-lg border-2 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:grayscale"
+            className="object-cover rounded-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[-3px] hover:translate-y-[-3px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:grayscale"
           />
         </div>
       </div>

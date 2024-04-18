@@ -8,10 +8,10 @@ import Projects from './components/Projects'
 export default function Home() {
   return (
     <main className="min-h-screen items-center">
-      <div className="t-0 mb-5">
+      <div className="">
         <Navbar />
       </div>
-      <div className="mt-200 snap-y snap-mandatory">
+      <div className="mt-200 items-center justify-center">
         <MomentumScroll>
           <About />
           <Experience />
