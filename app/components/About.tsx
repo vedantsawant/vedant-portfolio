@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <section id="about" className="bg-white item py-20 lg:py-0 content mx-auto justify-center items-center">
+    <section id="about" className="bg-beige item py-20 lg:py-0 content mx-auto justify-center items-center">
       <div className="grid h-dvh lg:grid-cols-2 justify-items-center gap-5 p-10 max-w-screen-xl mx-auto justify-center items-center">
         <div className="order-2 lg:order-1 flex flex-col justify-center items-center lg:items-start">
           <motion.div
@@ -100,7 +100,7 @@ export default function About() {
           >
             <Button
               onClick={() => {
-                console.log('btn click')
+                window.open('Vedant_Sawant_resume.pdf')
               }}
             >
               Resume

@@ -5,7 +5,7 @@ import Button from './Button'
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-pastelgreen item py-10 mx-auto content justify-center items-center">
+    <section id="experience" className="bg-white item py-10 mx-auto content justify-center items-center">
       <div className="max-w-screen-xl mx-auto justify-center items-center">
         <div className="flex justify-center items-center my-10">
           <h1 className="text-4xl lg:text-6xl font-syne font-medium">Experience</h1>
@@ -18,7 +18,9 @@ export default function Experience() {
               className="order-1 size-16 lg:size-32 drop-shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
             />
             <div className="order-2">
-              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium">Electronic Arts</h1>
+              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium truncate overflow-clip">
+                Electronic Arts
+              </h1>
               <h1 className="text-lg lg:text-xl font-syne font-normal">Software Engineer Intern</h1>
               <p className="my-5">
                 Developed and deployed an insights tool for EA Data & AI platform, optimizing engagement tracking for
@@ -38,7 +40,7 @@ export default function Experience() {
               className="order-1 size-16 lg:size-32 drop-shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
             />
             <div className="order-2">
-              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium">Virtubox</h1>
+              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium truncate overflow-clip">Virtubox</h1>
               <h1 className="text-lg lg:text-xl font-syne font-normal">Web Development Intern</h1>
               <p className="my-5">
                 Designed and built customizable UI components using React.js for the content management system used by
@@ -57,7 +59,9 @@ export default function Experience() {
               className="order-1 size-16 lg:size-32 drop-shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
             />
             <div className="order-2">
-              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium">Stony Brook University</h1>
+              <h1 className="text-2xl lg:text-3xl my-5 font-syne font-medium truncate overflow-clip">
+                Stony Brook University
+              </h1>
               <h1 className="text-lg lg:text-xl font-syne font-normal">Research Assistant</h1>
               <p className="my-5">
                 Engineered a real-time pipeline for processing live audio input, generating facial animation output for

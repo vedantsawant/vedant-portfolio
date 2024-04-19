@@ -12,7 +12,7 @@ export default function Navbar() {
           Vedant Sawant
         </Link>
         <div className="hidden md:flex items-center text-base justify-end px-5 md:ml-auto">
-          <Link
+          {/* <Link
             className="text-xl font-syne font-medium m-2 transition-all delay-150 ease-in-out hover:translate-x-[-2px] hover:translate-y-[-2px]"
             href={'#about'}
           >
@@ -29,7 +29,7 @@ export default function Navbar() {
             href={'#projects'}
           >
             Projects
-          </Link>
+          </Link> */}
         </div>
         <div className="hidden md:flex items-center text-base justify-end ">
           <a
